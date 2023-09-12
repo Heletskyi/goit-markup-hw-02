@@ -9,6 +9,98 @@ body {
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
+}
+
+.span-web {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.span-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio-nav {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.studio-nav:hover {
+  color: #404bbf;
+}
+
+.portfolio-nav {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.portfolio-nav:hover {
+  color: var(--OCEAN, #404bbf);
+}
+.contacts-nav {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #2e2f42;
+}
+.contacts-nav:hover {
+  color: #404bbf;
+}
+
+.maill {
+  text-decoration: none;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.maill:hover {
+  color: #404bbf;
+}
+.maill:focus {
+  color: #404bbf;
+}
+
+.telephone {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.telephone:hover {
+  color: #404bbf;
+}
+
+.telephone:focus {
+  color: #404bbf;
 }
