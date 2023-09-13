@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
   color: #434455;
   background-color: #fff;
   line-height: 1.5;
@@ -18,7 +17,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.303em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -63,6 +62,11 @@ a {
 .portfolio-nav:hover {
   color: var(--OCEAN, #404bbf);
 }
+
+.portfolio-nav:focus {
+  color: #404bbf;
+}
+
 .contacts-nav {
   font-family: Roboto;
   font-size: 16px;
@@ -72,6 +76,10 @@ a {
   color: #2e2f42;
 }
 .contacts-nav:hover {
+  color: #404bbf;
+}
+
+.contacts-nav:focus {
   color: #404bbf;
 }
 
@@ -130,7 +138,7 @@ a {
   color: #fff;
   border: none;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -151,6 +159,10 @@ a {
   background-color: #404bbf;
 }
 
+.button:focus {
+  background-color: #404bbf;
+}
+
 .strategy-title {
   font-family: Roboto;
   font-size: 20px;
@@ -159,6 +171,7 @@ a {
   line-height: 1.2;
   color: #2e2f42;
 }
+
 .strategy-text {
   font-family: Roboto;
   font-size: 16px;
@@ -424,10 +437,10 @@ a {
 
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -447,7 +460,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .footer {
