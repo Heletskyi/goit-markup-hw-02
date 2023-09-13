@@ -51,10 +51,13 @@ a {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.address {
+  font-style: normal;
 }
 .address-link:hover {
   color: #404bbf;
@@ -63,11 +66,15 @@ a {
   color: #404bbf;
 }
 
+.first-section {
+  backgroun-color: #2e2f42;
+}
+
 .first-section-title {
   background-color: #2e2f42;
   color: var(--WHITE, #fff);
   text-align: center;
-
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -76,6 +83,7 @@ a {
 .first-section-button {
   background: var(--IRIS, #4d5ae5);
   color: #fff;
+
   border: none;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -111,6 +119,14 @@ a {
   font-weight: 400;
   letter-spacing: 0.32px;
   line-height: 1.5;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-list {
+  background-color: #fff;
 }
 
 .our-team-title {
