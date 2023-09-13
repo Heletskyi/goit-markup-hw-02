@@ -23,76 +23,20 @@ a {
 
 .span-studio {
   color: var(--NAVY-BLUE, #2e2f42);
+
   font-family: Raleway;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
 }
 
-.nav-list {
+.nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02rem;
-}
-.nav-list:hover {
-  color: #404bbf;
-}
-
-.nav-list:focus {
-  color: #404bbf;
-}
-.studio-nav {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.portfolio-nav {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.studio-nav:focus {
-  color: #404bbf;
-}
-
-.portfolio-nav:hover {
-  color: var(--OCEAN, #404bbf);
-}
-
-.portfolio-nav:focus {
-  color: #404bbf;
-}
-
-.contacts-nav {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  color: #2e2f42;
-}
-.contacts-nav:hover {
-  color: #404bbf;
-}
-
-.contacts-nav:focus {
-  color: #404bbf;
-}
-
-.contacts {
-  font-style: normal;
 }
 
 .maill {
