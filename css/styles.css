@@ -147,7 +147,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.section-three-title {
+.portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   background-color: white;
   text-align: center;
@@ -159,7 +159,7 @@ a {
   text-transform: capitalize;
 }
 
-.banking-title {
+.portfolio-item {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
@@ -168,93 +168,7 @@ a {
   letter-spacing: 0.4px;
 }
 
-.banking-text {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.cashless-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.cashless-text {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.meditation-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.meditation-text {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.taxi-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.taxi-text {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.screen-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.screen-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.courses-title {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-
-.Courses-text {
+.portfolio-text {
   color: var(--SLATE, #434455);
   font-family: Roboto;
   font-size: 16px;
